@@ -41,8 +41,8 @@ function putDataOnDocument(lat, long)
         //console.log(parsedData);
         document.getElementById('data').innerHTML = `
         <div class="vertical-center">
-            <div style="display: flex; align-items: center;">
-                <img src="./assets/${chooseIcon(data.precipitation, data.cloud)}.png" alt="Rain" width="168">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="./assets/${chooseIcon(data.precipitation, data.cloud)}.png" alt="Rain" class="img">
                 <span class="color-white fs-lg fw-bold">${data.temperature}º</span>
             </div>
             <div class="" style="display: flex; flex-direction: column; justify-content: center; align-items: center;"> 

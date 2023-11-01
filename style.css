@@ -22,15 +22,15 @@ body {
 }
 
 .fs-lg {
-    font-size: 128px;
+    font-size: 8em;
 }
 
 .fs-md {
-    font-size: 64px;
+    font-size: 4em;
 }
 
 .fs-sm {
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .fw-bold {
@@ -49,5 +49,10 @@ body {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+
+  .img {
+    width: auto;
+    max-width: 168px;
   }
 
